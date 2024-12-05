@@ -3,13 +3,25 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.imgtext {
+    margin: 1em;
+}
+
+.main-content{
+    margin: 1em;
+}
+
+.creatorInfo{
+    margin: 1em;
+}
+
 .tripleImg{
     display: none;
 }
 
 .bgImg img{
-    width: 100%;
-    height: 275px;
+    display: none;
 }
 
 body{
@@ -49,10 +61,11 @@ body h2{
     background-color: green;
     margin: 0.3em;
     padding:0.6em;
+    border-radius: 25px;
 }
 
 body p{
-    margin: 0.2em;
+    margin: 1em;
     padding: 0.3em;
 }
 
@@ -63,6 +76,13 @@ footer{
 }
 
 @media (min-width:768px){
+
+    .bgImg img{
+        display: grid;
+        width: 100%;
+        height: 275px;
+    }
+    
     .tripleImg{
         display: grid;
         grid-template-columns: 33% 33% 33%;
