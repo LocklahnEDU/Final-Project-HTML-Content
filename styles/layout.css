@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+form{
+    margin-left: 4em;
+}
+
+.gardencalc{
+    margin: 1em;
+}
 .imgtext {
     margin: 1em;
 }
